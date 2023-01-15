@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    background-color:rgb(95, 27, 62);
+}
+
+canvas{
+    border-color: rgb(84, 42, 73);
+    border-spacing: 2px;
+}
+
+p{
+    color: aliceblue;
+}
+
+label{
+    color: green;
+}
