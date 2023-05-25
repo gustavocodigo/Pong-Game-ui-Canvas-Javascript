@@ -1,5 +1,5 @@
 body{
-    background-image: url(https://i.pinimg.com/736x/6d/a9/f7/6da9f783d51f856361fde77593069001.jpg);
+    background-image: url(./assets/bg.jpg);
     background-size: 100% 100%;
     min-height: 100vh;
     display: flex;
