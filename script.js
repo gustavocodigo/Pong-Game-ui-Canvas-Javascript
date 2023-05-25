@@ -344,7 +344,7 @@ class MainMenu {
             let str = this.options[i]
             if (this.currentSelectedOption == i) {
                canvas.fillStyle = "red";
-               canvas.font = "20px serif";
+               canvas.font = "22px serif";
             }else{
                 canvas.fillStyle = "black";
             }
@@ -427,10 +427,10 @@ function init()
     ], function(option){
         switch(option) {
             case 1:
-                window.open("https://www.youtube.com/channel/UCXQHED6YhCkWrIaxCmZ1Oyg");
+                window.open("https://www.youtube.com/");
                 break;
             case 2:
-                window.open("https://github.com/igugx");
+                window.open("https://github.com/gustavocodigo");
                 break;
             case 3:
                 currentMenu = mainMenu
@@ -443,7 +443,7 @@ function init()
         "OK"
     ], function(option){
         currentMenu = mainMenu
-    },"Versao 0.01 esse é um jogo demo")
+    },"Versao 0.2 esse é um jogo demo")
 
     currentMenu = mainMenu
 }

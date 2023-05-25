@@ -1,11 +1,32 @@
 body{
-    text-align: center;
-    background-color:rgb(95, 27, 62);
+    background-image: url(https://i.pinimg.com/736x/6d/a9/f7/6da9f783d51f856361fde77593069001.jpg);
+    background-size: 100% 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items:center;
+    color: rgb(84, 228, 125);
+    gap: 10px;
+    margin: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+   
+    border-radius: 100px 0px 100px 0px;
+    margin: 20px;
+   
+}
+
 
 canvas{
     border-color: rgb(84, 42, 73);
     border-spacing: 2px;
+    width: 100%;
+    height: 100%;
 }
 
 p{
@@ -15,3 +36,80 @@ p{
 label{
     color: green;
 }
+
+
+
+*{
+	box-sizing: border-box;
+}
+
+#pc-old {
+	width: 640px;
+    height: 500px;
+    margin: auto;
+    background: url(./assets/pcbg.png);
+    background-position: 0px 0px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#pc-inside-div {
+	position: relative;
+	color: green;
+	background-color: white;
+	width: 71%;
+    height: 68%;
+	left: 14%; top: 12%;
+	font-size: 12px;
+}
+
+
+#credits {
+    font-size: 12px;
+    background-color: rgb(41, 39, 39);
+    margin: 20px;
+    border: 2px solid black;
+    padding: 20px;
+   width: 500px;
+   height: 100%;
+    
+}
+
+#credits img {
+    max-width: 150%;
+}
+
+#tutorial {
+    
+    text-align: center;
+    padding: 20px;
+}
+
+
+.incompatible {
+    display: none;
+}
+
+.incompatible h2{
+    color: red;
+}
+
+
+/* Estilos que se aplicam apenas a dispositivos móveis com largura de até 600 pixels */
+@media (max-width: 600px) {
+    /* Coloque seus estilos específicos para dispositivos móveis aqui */
+    .incompatible{
+        display: block;
+    }
+    main {
+        display: none;
+    }
+    /* Outros estilos... */
+  }
+  
+
+  a {
+   
+    color: white;
+  }
